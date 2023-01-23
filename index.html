@@ -1,43 +1,52 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
+
 <head>
     <!-- clarity tag -->
     <script type="text/javascript">
-        (function(c,l,a,r,i,t,y){
-            c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-            t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-            y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+        (function (c, l, a, r, i, t, y) {
+            c[a] = c[a] || function () { (c[a].q = c[a].q || []).push(arguments) };
+            t = l.createElement(r); t.async = 1; t.src = "https://www.clarity.ms/tag/" + i;
+            y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y);
         })(window, document, "clarity", "script", "firj0vqxm2");
     </script>
     <!-- UET tag -->
     <script>
-        (function(w,d,t,r,u)
-        {
-            var f,n,i;
-            w[u]=w[u]||[],f=function()
-            {
-                var o={ti:"343028394"};
-                o.q=w[u],w[u]=new UET(o),w[u].push("pageLoad")
+        (function (w, d, t, r, u) {
+            var f, n, i;
+            w[u] = w[u] || [], f = function () {
+                var o = { ti: "343028394" };
+                o.q = w[u], w[u] = new UET(o), w[u].push("pageLoad")
             },
-            n=d.createElement(t),n.src=r,n.async=1,n.onload=n.onreadystatechange=function()
-            {
-                var s=this.readyState;
-                s&&s!=="loaded"&&s!=="complete"||(f(),n.onload=n.onreadystatechange=null)
-            },
-            i=d.getElementsByTagName(t)[0],i.parentNode.insertBefore(n,i)
+                n = d.createElement(t), n.src = r, n.async = 1, n.onload = n.onreadystatechange = function () {
+                    var s = this.readyState;
+                    s && s !== "loaded" && s !== "complete" || (f(), n.onload = n.onreadystatechange = null)
+                },
+                i = d.getElementsByTagName(t)[0], i.parentNode.insertBefore(n, i)
         })
-        (window,document,"script","//bat.bing.com/bat.js","uetq");
+            (window, document, "script", "//bat.bing.com/bat.js", "uetq");
+    </script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WZSWJZ4WH7"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-WZSWJZ4WH7');
     </script>
 
-<title>Main page</title>
+    <title>Main page</title>
 </head>
+
 <body>
 
-<h1>This is my website</h1>
-<p>Here you can buy many products</p>
+    <h1>This is my website</h1>
+    <p>Here you can buy many products</p>
 
-<button onclick='window.location = "./product1.html"'>Product 1</button>
-<button onclick='window.location = "./product2.html"'>Product 2</button>
+    <button onclick='window.location = "./product1.html"'>Product 1</button>
+    <button onclick='window.location = "./product2.html"'>Product 2</button>
 
 </body>
-</html> 
+
+</html>
