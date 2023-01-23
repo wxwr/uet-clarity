@@ -35,7 +35,21 @@
 
         gtag('config', 'G-WZSWJZ4WH7');
     </script>
-    
+
+    <!-- Page View Conversion goal 1EUR -->
+    <script>
+        window.uetq = window.uetq || [];
+        window.uetq.push('event', 'page_view', {});
+    </script>
+
+    <!-- Purchase Conversion goal 10EUR -->
+    <script>
+        function uet_report_conversion() {
+            window.uetq = window.uetq || [];
+            window.uetq.push('event', 'PRODUCT_PURCHASE', { "ecomm_prodid": "1", "ecomm_pagetype": "PURCHASE" });
+        }
+    </script>
+
     <title>Product 1</title>
 </head>
 
@@ -45,6 +59,7 @@
     <p>it is the best product available in the market</p>
 
     <button onclick='window.location = "./index.html"'>Main page</button>
+    <button onclick="uet_report_conversion()">Buy product 1</button>
 
     <img src="./img/ms.jpg" width="420" height="100" alt="Microsoft product">
 
