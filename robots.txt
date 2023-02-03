@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: 
+Sitemap: https://wxwr.github.io/uet-clarity/sitemap.xml
